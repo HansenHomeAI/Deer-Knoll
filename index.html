@@ -283,7 +283,7 @@ function calculateMaxDistance() {
 function createBorderDot(dotData) {
     const { name, position } = dotData;
     let borderDotGeometry = new SphereGeometry(borderDotParams.radius, borderDotParams.widthSegments, borderDotParams.heightSegments);
-    let borderDotMaterial = new MeshBasicMaterial({ color: 0x112431 });
+    let borderDotMaterial = new MeshBasicMaterial({ color: 0x173244 });
     let borderDot = new Mesh(borderDotGeometry, borderDotMaterial);
 
     // Set the position
