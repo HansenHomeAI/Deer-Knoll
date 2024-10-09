@@ -283,7 +283,7 @@ function calculateMaxDistance() {
 function createBorderDot(dotData) {
     const { name, position } = dotData;
     let borderDotGeometry = new SphereGeometry(borderDotParams.radius, borderDotParams.widthSegments, borderDotParams.heightSegments);
-    let borderDotMaterial = new MeshBasicMaterial({ color: 0x173244 });
+    let borderDotMaterial = new MeshBasicMaterial({ color: 0x9B9B90 });
     let borderDot = new Mesh(borderDotGeometry, borderDotMaterial);
 
     // Set the position
@@ -298,7 +298,7 @@ function createBorderDot(dotData) {
 
 // Define the radial segments and material for the cylinders (BorderLines)
 const cylinderRadialSegments = 32; // Radial segments for smoother cylinders
-const cylinderMaterial = new MeshBasicMaterial({ color: 0x173244 }); // White color for BorderLines
+const cylinderMaterial = new MeshBasicMaterial({ color: 0x9B9B90 }); // White color for BorderLines
 
 
 
